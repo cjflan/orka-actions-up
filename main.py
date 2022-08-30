@@ -9,7 +9,7 @@ class SpinUpOrkaVM:
 	def __init__(self):
 		self.token = None
 		self.vm_name = os.environ["VM_NAME"]
-		orka_ip = '10.221.188.100'
+		orka_ip = '10.221.188.20'
 		self.orka_address = f"http://{orka_ip}"
 		self.orka_user = os.environ["INPUT_ORKA_USER"]
 		self.orka_pass = os.environ["INPUT_ORKA_PASS"]
